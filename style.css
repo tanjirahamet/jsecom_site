@@ -92,6 +92,7 @@ a {
   padding: 9.6rem 2.4rem;
 }
 
+
 :is(
     .section-extra-product,
     .section-blog,
@@ -240,7 +241,8 @@ textarea:focus-visible {
 }
 
 .section-navbar img {
-  width: 25%;
+  width: 15%;
+
 }
 
 .section-navbar .navbar ul {

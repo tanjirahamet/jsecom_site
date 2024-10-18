@@ -23,10 +23,9 @@ export const showProductContainer = (products) => {
     productClone.querySelector(".productImage").alt = name;
     productClone.querySelector(".productStock").textContent = stock;
     productClone.querySelector(".productDescription").textContent = description;
-    productClone.querySelector(".productPrice").textContent = `₹${price}`;
-    productClone.querySelector(".productActualPrice").textContent = `₹${
-      price * 4
-    }`;
+    productClone.querySelector(".productPrice").textContent = `€${price}`;
+    productClone.querySelector(".productActualPrice").textContent = `€${price * 4
+      }`;
 
     productClone
       .querySelector(".stockElement")
